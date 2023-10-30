@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: sans-serif;
+        
+ }
+   
+ 
+.navbar{
+    
+    width: 100%;
+    height: 80px;
+    background-color: rgb(1, 176, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: none;
+}
+ 
+.links ul{
+    display: flex;
+   list-style: none;
+}
+
+.links li{
+    margin: 0 20px;
+    list-style: none;
+
+}
+.links a{
+    text-decoration: none;
+    color: rgb(41, 41, 42);
+    text-transform: uppercase;
+}
+.links a:hover{
+    color: rgb(5, 21, 245);
+    transition: 0.25s;
+}
+.btn button:hover{
+    color: rgb(235, 235, 235);
+    transition: 0.3s;
+    background-color: rgb(51, 51, 236);
+}
+.btn button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.Hero-image{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.left{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(186, 186, 242);
+    padding-left: 20px;
+    gap: 20px;
+
+
+}
+.img1{
+    width: 700px;
+    height: 300px;
+    background-image: url(./Apple-iPhone-12-PNG-Transparent.png);
+    background-size: cover;
+}
+.img2{
+    width: 700px;
+    height: 300px;
+    background-image: url(./1.png);
+    background-size: cover;
+}
+
+.img3{
+    width: 700px;
+    height: 300px;
+    background-image: url(./3.png);
+    background-size: cover;
+}
+ 
+.img4{
+    width: 700px;
+    height: 300px;
+    background-image: url(./Figure.png);
+    background-size: cover;
+ 
+}
+.img5{
+    width: 700px;
+    height: 300px;
+    background-image: url(./7.png);
+    background-size: cover;
+}
+ 
+.right{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(46, 90, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 130px;
+
+}
+.foter{
+    width: 20%;
+    height:50px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 30px;
+}
